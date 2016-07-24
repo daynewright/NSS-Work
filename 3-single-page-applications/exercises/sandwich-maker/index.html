@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sandwich Maker</title>
+        <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+
+        <h1>Build a deli sandwich!</h1>
+
+        <div class="flex-container">
+            <div class="flex-select">
+                <div class="col">
+                    <h4>Select Bread:</h4>
+                    <select name="bread" id="Bread" multiple></select>
+                </div>
+                <div class="col">
+                    <h4>Select Condiments:</h4>
+                    <select name="condiments" id="Condiments" multiple></select>
+                </div>
+                <div class="col">
+                    <h4>Select Cheese:</h4>
+                    <select name="cheese" id="Cheese" multiple></select>
+                </div>
+                <div class="col">
+                    <h4>Select Meat:</h4>
+                    <select name="meat" id="Meat" multiple></select>
+                </div>
+            </div>
+        </div>
+        <button id="button">Make Sandwich</button>
+        <hr/>
+        <div id="sandwich"></div>
+
+        <script src="options/meat.js"></script>
+        <script src="options/cheese.js"></script>
+        <script src="options/condiments.js"></script>
+        <script src="options/bread.js"></script>
+        <script src="main.js"></script>
+        <script src="totalCost.js"></script>
+    </body>
+</html>
