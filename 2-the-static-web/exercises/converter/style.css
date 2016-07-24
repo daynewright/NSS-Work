@@ -1,0 +1,14 @@
+body {
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+#tempResult {
+  margin: 10px;
+  font-size: 3em;
+}
+
+input[type="radio"], input[type="submit"] {
+  margin-top: 10px;
+  margin-top: 10px;
+}
